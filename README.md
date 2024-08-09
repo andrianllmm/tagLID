@@ -1,6 +1,6 @@
 # TagLID
 
-**A Word level Language Identification (LID) tool for Tagalog-English (Taglish) text.**
+**A word level Language Identification (LID) tool for Tagalog-English (Taglish) text.**
 
 
 ## About
@@ -13,9 +13,7 @@
 To install the latest development version from GitHub, use:
 
 ```bash
-git clone https://github.com/andrianllmm/taglid.git
-cd taglid
-pip install .
+pip install git+https://github.com/andrianllmm/tagLID.git@main
 ```
 
 ## Usage
@@ -133,14 +131,12 @@ The accuracy of taglid is yet to be tested.
 
 ## Issues
 
-* No issues
-
-If you encounter any issues or bugs, please report them on the [GitHub issues page](#).
+If you encounter any issues or bugs, please report them on the [GitHub issues page](https://github.com/andrianllmm/taglid/issues).
 
 
 ## Contributing
 
-This projects welcomes contributions and suggestions. Please follow these steps:
+This project welcomes contributions and suggestions. Please follow these steps:
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-branch`).
 3. Commit your changes (`git commit -am 'Add new feature'`).
