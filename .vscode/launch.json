@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "taglid.lid: Python Debugger",
+            "type": "debugpy",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/src/",
+            "module": "taglid.lid",
+        },
+        {
+            "name": "taglid.lid_dataset: Python Debugger",
+            "type": "debugpy",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/src/",
+            "module": "taglid.lid_datset",
+            "args": ["../sample.xlsx", "../sample_labeled.xlsx"],
+        },
+    ]
+}
